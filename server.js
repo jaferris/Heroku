@@ -83,5 +83,5 @@ app.use((error, req, res, next)=>{
 
 const port = process.env.PORT || 80
 app.listen(port, ()=>{
-    console.log('Server is running on Port 3000');
+    console.log('Server is running on Port ' + port);
 })
